@@ -1,0 +1,137 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #191919;
+    font-family:'Poppins';
+    scroll-behavior: smooth;
+  }
+
+  li, a, button {
+    font-size: 16px;
+    color: #efefef;
+    text-decoration: none;
+  }
+
+  header{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 10px 50px;
+  }
+
+  .logo{
+    margin-right: auto;
+    cursor: pointer;
+    width: 35px;
+  }
+
+  .nav-items li {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+
+  main {
+    padding: 70px 15%;
+  }
+  
+ .home {
+    width: 100%;
+    min-height: 90vh;
+    margin-top: 60px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 50px;
+  }
+  
+  button{
+    background-color: #4D148C;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    margin-left: none;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+  }
+
+  button:hover{
+    transform: scale(1.1)
+  }
+
+  .about{
+    width: 100%;
+    min-height: 90vh;
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+  }
+
+  .about-text span{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .about-text h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:#8b3cc0;
+    font-size: 50px;
+  }
+
+  .about-text p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  section {
+    padding: 70px 15%;
+  }
+   
+  .contact{
+    width: 100%;
+    min-height: 90vh;
+    display:flex;
+    align-items: center;
+  }
+
+  .contact-text span{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .contact-text h2 {
+    color:#8b3cc0;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-text p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .contact-items img {
+    cursor : pointer;
+    padding: 60px 30px;
+  }
+
+  footer {
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+    }
+
