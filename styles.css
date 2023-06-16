@@ -18,6 +18,9 @@
 
   header{
     display:flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
     justify-content:flex-end;
     align-items: center;
     padding: 10px 50px;
@@ -51,6 +54,7 @@
   
   button{
     background-color: #4D148C;
+    background-image: none;
     padding: 10px 40px;
     border-radius: 50px;
     border: none;
@@ -103,6 +107,7 @@
     min-height: 90vh;
     display:flex;
     align-items: center;
+    margin-top: 50px;
   }
 
   .contact-text span{
@@ -136,3 +141,14 @@
       color: #888;
     }
 
+
+    @media (max-width: 767px) {
+      .about {
+        grid-template-columns: 1fr;
+      }
+      .about img{
+        width: 50%;
+        margin-bottom: 40px;
+        align-content:center ;
+      }
+    }
